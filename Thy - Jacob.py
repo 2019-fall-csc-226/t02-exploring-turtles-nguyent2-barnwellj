@@ -1,10 +1,15 @@
 import turtle
+# Citation: https://docs.python.org/3/library/turtle.html
+# Get color(), pensize(), write() from this website.
+
 wn = turtle.Screen()
 thy = turtle.Turtle()
 jacob = turtle.Turtle()
 thy.color("red")
 jacob.color("green")
-#jacob.shape("circle")
+jimmy = turtle.Turtle()
+jimmy2 = turtle.Turtle()
+
 jacob.pensize(3)
 thy.pensize(3)
 jacob.right(90)
@@ -56,5 +61,12 @@ thy.right(135)
 thy.forward(100)
 thy.left(135)
 thy.forward(80)
-
+jimmy.penup()
+jimmy.left(90)
+jimmy.forward(200)
+jimmy.write("Jacob was born in the year of Rabbit.")
+jimmy2.penup()
+jimmy2.left(90)
+jimmy2.forward(100)
+jimmy2.write("Thy was born in 2000,\n but in the Chinese calendar, Thy was born in 1999, \nwhich was the year of Rabbit.")
 wn.exitonclick()
