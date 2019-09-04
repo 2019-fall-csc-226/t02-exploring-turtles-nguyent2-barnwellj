@@ -1,10 +1,14 @@
 import turtle
 # Citation: https://docs.python.org/3/library/turtle.html
 # Get color(), pensize(), write() from this website.
+#Citation: https://www.w3schools.com/colors/colors_picker.asp
+# Get background color from the website
 
 wn = turtle.Screen()
 thy = turtle.Turtle()
 jacob = turtle.Turtle()
+
+wn.bgcolor("#99ffff")
 thy.color("red")
 jacob.color("green")
 jimmy = turtle.Turtle()
